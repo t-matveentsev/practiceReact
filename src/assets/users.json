@@ -7,7 +7,8 @@
     "name": "Bird Ramsey",
     "gender": "male",
     "company": "NIMON",
-    "email": "birdramsey@nimon.com"
+    "email": "birdramsey@nimon.com",
+    "isOpenToWork": true
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "name": "Lillian Burgess",
     "gender": "female",
     "company": "LUXURIA",
-    "email": "lillianburgess@luxuria.com"
+    "email": "lillianburgess@luxuria.com",
+    "isOpenToWork": false
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "name": "Kristie Cole",
     "gender": "female",
     "company": "QUADEEBO",
-    "email": "kristiecole@quadeebo.com"
+    "email": "kristiecole@quadeebo.com",
+    "isOpenToWork": false
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "name": "Leonor Cross",
     "gender": "female",
     "company": "GRONK",
-    "email": "leonorcross@gronk.com"
+    "email": "leonorcross@gronk.com",
+    "isOpenToWork": true
   },
   {
     "id": 5,
@@ -47,6 +51,7 @@
     "name": "Marsh Mccall",
     "gender": "male",
     "company": "ULTRIMAX",
-    "email": "marshmccall@ultrimax.com"
+    "email": "marshmccall@ultrimax.com",
+    "isOpenToWork": true
   }
 ]
