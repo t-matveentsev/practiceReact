@@ -1,13 +1,3 @@
 :root {
     --white: white;
 }
-
-body {
-    background-color: black;
-    color: var(--white);
-}
-
-.title {
-    text-align: center;
-    align-items: center
-}

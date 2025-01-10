@@ -1,10 +1,13 @@
-const User = ({ name, balance, picture }) => {
+import style from "./User.module.css";
+
+const User = ({ name, balance, email }) => {
   return (
-    <div>
+    <li className={style.card}>
       <h2>{name}</h2>
-      <img src={picture} alt="" />
       <p>{balance}</p>
-    </div>
+      <p>{email}</p>
+      <button>Delete</button>
+    </li>
   );
 };
 
