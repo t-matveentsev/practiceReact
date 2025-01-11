@@ -1,10 +1,13 @@
 import clsx from "clsx";
 import style from "./User.module.css";
+import { LuUsersRound } from "react-icons/lu";
 
 const User = ({ name, balance, email, isOpenToWork }) => {
   return (
     <li className={style.card}>
-      <h2>{name}</h2>
+      <h2>
+        {name} <LuUsersRound className={style.iconUser} />
+      </h2>
       <p>{balance}</p>
       <p>{email}</p>
       <p
